@@ -1,11 +1,13 @@
 
 :root {
-    --primary-font: "Space Mono", monospace;
+    --primary-font: 'Caveat', cursive;
+    --secondary-font:'Alegreya', serif;
+    --primary-color-font:#385170;
+    --secondary-color-font:#a696c8;
     --background-image: linear-gradient(#6374d518, #9b90c846);
   }
   
   body {
-    font-family: var(--primary-font);
     margin: 0px;
     padding: 0px;
     background-image: var(--background-image);
@@ -41,22 +43,24 @@
     margin-top: 100px;
   }
   
-  .homepage-hero h1 {
-    font-size: 35px;
+  .homepage-hero h1, h2 {
+    font-size: 96px;
     line-height: 70px;
     margin-left: 50px;
     margin-bottom: 5px;
     text-align: left;
+    font-family: var(--primary-font);
+    color: var( --primary-color-font);
   }
   
   #particles-js {
     height: 800px;
   }
-  h1,h2 {font-family: 'Caveat', cursive;
-color:white;
-font-size: 96px;}
 
-p { font-family:font-family: 'Alegreya', serif;
-color:white;
+
+
+
+h3 { font-family:var(--secondary-font);
+color:var(--secondary-color-font);
 font-size:24px;}
 

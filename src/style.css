@@ -5,6 +5,7 @@
     --primary-color-font:#385170;
     --secondary-color-font:#a696c8;
     --background-image: linear-gradient(#6374d518, #9b90c846);
+    --shadow:5px,5px,10px, rgba(0,0,0,0.2);
   }
   
   body {
@@ -56,6 +57,18 @@
   .divider {
     margin-top: 100px;
   }
+
+.polaroid {background: #fff;
+    padding:1rem;
+    box-shadow: var(--shadow);
+    width: 30%;
+    transform: rotate(4deg);
+}
+
+.polaroid >img {
+    max-width: 100%;
+height:auto;
+}
   
 .btn-primary {
     background-color: var(--primary-color-font);

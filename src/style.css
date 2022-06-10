@@ -63,7 +63,7 @@
     box-shadow: var(--shadow);
     width: 70%;
     transform: rotate(4deg);
-    margin-right: 30px;
+    margin-right: 70px;
 }
 
 .polaroid >img {

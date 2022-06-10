@@ -38,6 +38,10 @@
     padding: 0px;
   }
   
+  .nav-link {
+    color: var(--primary-color-font);
+    font-family: var(--secondary-font);
+  }
   .homepage-hero {
     padding-top: 170px;
     padding-left: 90px;

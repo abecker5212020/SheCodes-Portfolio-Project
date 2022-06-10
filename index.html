@@ -34,7 +34,7 @@
     <!--Navagation Bar-->
     <ul class="nav">
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" aria-current="page" href="#">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Projects</a>
@@ -49,14 +49,14 @@
         <a class="nav-link ">Certificates</a>
       </li>
     </ul>
-    
+
     <!-- Boostrap Container -->
     <div class="container-fluid">
       
       <!-- Homepage Hero -->
       <div class="homepage-hero">
         <div class="row">
-          <div class="col-md-7">
+          <div class="col-md-7 mb-5">
             <h1> Hello, World!</h1>
             <h2>I'm <span class="highlighted-word">Amie</span>.</h2><br />
             <h3>Front-End Developer | Clinical Research Manager<br />Based in NYC.</h3>
@@ -71,17 +71,51 @@
         </div>
 
 
-        <div class="divider"></div>
-
         <div class="text-center">
 
         <a class="btn btn-primary" href="/about.html" role="button">About Me</a></div>
       </div>
 
-      <div class="divider"></div>
 
+      <!--Featured Projects-->
+<p class="text-center m-5">Featured Projects</p>
+
+
+<div class="container">
+
+  <div class="row">
+    <div class="col d-none d-md-block">
+      <img src="img/weatherapp.png" alt="weather-app" class="img-fluid rounded">
+    </div>
+
+    <div class="col">
+      <div class="project-description">
+      <h2 class="mb-5">Weather App</h2>
+      <p class="mb-5 text-muted">Weather app created with API ETC (work on content)</p>
+      <a href="https://zesty-creponne-172358.netlify.app/" class="btn btn-projects">Launch Weather App</a>
+     </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="project-description">
+      <h2 class="mb-5">Egg Freezing</h2>
+      <p class="mb-5 text-muted">(work on content)</p>
+      <a href="https://dazzling-daffodil-becbd3.netlify.app/" class="btn btn-projects">Launch Project</a>
+     </div>
+    </div>
+
+    <div class="col d-none d-md-block">
+      <img src="img/eggfreeze.png" alt="eggfreeze" class="img-fluid rounded">
+    </div>
+
+    
+  </div>
+
+      
+   </div>
       <!-- Footer -->
-      <div class="footer">
+      <div class="footer mt-5 ">
         Made with <i class="far fa-heart heart"></i> by Amie
       </div>
       <div class="row icon">

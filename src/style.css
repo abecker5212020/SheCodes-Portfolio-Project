@@ -14,6 +14,7 @@
     background-image: var(--background-image);
   }
 
+
   h3 { 
     font-family:var(--secondary-font);
     color:var(--secondary-color-font);
@@ -52,6 +53,7 @@ p {
     color: var(--primary-color-font);
     font-family: var(--secondary-font);
   }
+
   .homepage-hero {
     padding-top: 170px;
     padding-left: 90px;
@@ -122,10 +124,11 @@ p {
 
 @media(max-width:900px){
   .project-description {padding: 0;
-  text-align: center;}
-}
+  text-align: center;}}
 
 
-
-
-
+.skill-list{
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;}

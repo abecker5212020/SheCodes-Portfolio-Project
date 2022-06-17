@@ -13,18 +13,20 @@
     background-image: var(--background-image);
   }
 
-  .travel-quote {
-    font-size:15px;
-    line-height: 1.5;
+  p {
+    font-size:16px;
+    line-height: 1;
     color: var(--primary-color-font);
   }
+
+.about-me-paragraph {text-align: left;}
 
 .polaroid {background: #fff;
     padding:1rem;
     box-shadow: var(--shadow);
     width: 70%;
     transform: rotate(-4deg);
-    margin-right: 70px;
+    margin-left:500px;
 }
 
 .polaroid >img {
@@ -32,8 +34,9 @@
     height:auto;
 }
 
-.skill-list {
-    list-style-type: none;
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;}
+.carousel-container {background-color: #a696c8;}
+
+.travel-header {font-family: var(--primary-font);
+color: var(--primary-color-font);}
+
+.travel-paragraph {}

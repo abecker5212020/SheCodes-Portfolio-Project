@@ -1,0 +1,41 @@
+:root {
+    --primary-font: 'Caveat', cursive;
+    --secondary-font:'Alegreya', serif;
+    --primary-color-font:#385170;
+    --secondary-color-font:#a696c8;
+    --background-image: linear-gradient(#6374d518, #9b90c846);
+    --shadow:5px,5px,10px, rgba(0,0,0,0.2);
+  }
+
+  body {
+    margin: 0px;
+    padding: 0px;
+    background-image: var(--background-image);
+  }
+
+  p {
+    font-size:16px;
+    line-height: 1;
+    color: var(--primary-color-font);
+  }
+
+.about-me-paragraph {text-align: left;}
+
+.polaroid {background: #fff;
+    padding:1rem;
+    box-shadow: var(--shadow);
+    width: 70%;
+    transform: rotate(-4deg);
+    margin-left:500px;
+}
+
+.polaroid >img {
+    max-width: 100%;
+    height:auto;
+}
+
+.carousel-container {background-color: #a696c8;}
+
+.travel-header {font-family: var(--primary-font);
+color: var(--primary-color-font);}
+.travel-paragraph {}

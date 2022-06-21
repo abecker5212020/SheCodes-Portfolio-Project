@@ -14,7 +14,7 @@
   }
 
   p {
-    font-size:16px;
+    font-size:22px;
     line-height: 1;
     color: var(--primary-color-font);
   }
@@ -34,9 +34,14 @@
     height:auto;
 }
 
-.carousel-container {background-color: #a696c8;}
+.carousel-container {background-color: #a696c8;
+  text-align: center;
+  width:900px;
+  margin: auto;
+  border-radius:5px;
+  border: 3px solid var(--primary-color-font);
+}
 
 .travel-header {font-family: var(--primary-font);
 color: var(--primary-color-font);}
 
-.travel-paragraph {}

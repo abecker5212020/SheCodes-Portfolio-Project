@@ -131,3 +131,10 @@ p {
   text-align: center;
   display: flex;
   justify-content: space-evenly;}
+
+
+  .project-heading {
+    font-family: var(--primary-font);
+    color: var(--primary-color-font);
+    font-size: 96px;
+  }

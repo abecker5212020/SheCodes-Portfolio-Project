@@ -19,7 +19,14 @@
     color: var(--primary-color-font);
   }
 
-.about-me-paragraph {text-align: left;}
+.container-about-me {background-color: #a696c8;
+  text-align: center;
+  width:900px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius:5px;
+  border: 3px solid var(--primary-color-font);}
 
 .polaroid {background: #fff;
     padding:1rem;
@@ -39,9 +46,13 @@
   width:900px;
   margin: auto;
   border-radius:5px;
+  margin-top: 25px;
+  margin-bottom: 40px;
   border: 3px solid var(--primary-color-font);
 }
 
 .travel-header {font-family: var(--primary-font);
 color: var(--primary-color-font);}
+
+.carousel-location, .carousel-place{color: white;}
 

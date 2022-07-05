@@ -126,6 +126,11 @@ p {
   text-align: center;}}
 
 
+  .skills, .certificates {
+    color: var(--primary-color-font);
+    font-size: 56px;
+    font-family: var(--primary-font);
+  }
 .skill-list {
   list-style-type: none;
   text-align: center;
@@ -138,3 +143,13 @@ p {
     color: var(--primary-color-font);
     font-size: 96px;
   }
+
+.certificate-list {
+  list-style-type: none;
+  width: 50%;
+  height: auto;
+  padding: 40px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}

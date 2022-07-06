@@ -144,12 +144,33 @@ p {
     font-size: 96px;
   }
 
-.certificate-list {
-  list-style-type: none;
-  width: 50%;
-  height: auto;
-  padding: 40px;
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
-}
+  .certificate-list {
+    list-style-type: none;
+    height: auto;
+    padding: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .cert {
+    max-width: 250px;
+  }
+
+  .contact-hero { 
+    font-size: 96px;
+    line-height: 70px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: var(--primary-font);
+    color: var( --primary-color-font);
+    padding:100px;
+  }
+
+  .contact-list {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  

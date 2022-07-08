@@ -14,6 +14,32 @@
     background-image: var(--background-image);
   }
 
+nav {
+  padding:20px 0;
+
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li{
+  display: inline-block; 
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a{
+text-decoration: none;
+color: var(--primary-color-font);
+transition: all 100ms ease-in-out;
+}
+
+
+nav a:hover, 
+li.active a {
+  color:var(--secondary-color-font);
+}
 
   h3 { 
     font-family:var(--secondary-font);
@@ -48,10 +74,10 @@ p {
     padding: 0px;
   }
   
-  .nav-link {
-    color: var(--primary-color-font);
-    font-family: var(--secondary-font);
-  }
+ .logo {
+  max-width: 75px;
+  max-height: 75px;
+ }
 
   .homepage-hero {
     padding-top: 170px;

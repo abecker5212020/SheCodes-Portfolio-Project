@@ -14,31 +14,32 @@
     background-image: var(--background-image);
   }
 
+.logo {max-height: 75px;}
 nav {
-  padding:20px 0;
-
+  padding: 20px 0;
 }
+
 nav ul {
   padding: 0;
   margin: 0;
 }
-nav li{
-  display: inline-block; 
+
+nav li {
+  display: inline;
   list-style: none;
   line-height: 42px;
   margin-left: 15px;
 }
 
-nav a{
-text-decoration: none;
-color: var(--primary-color-font);
-transition: all 100ms ease-in-out;
+nav a {
+  text-decoration: none;
+  color: var(--primary-color-font);
+  transition: all 100ms ease-in-out;
 }
 
-
-nav a:hover, 
-li.active a {
-  color:var(--secondary-color-font);
+nav a:hover,
+nav li.active a {
+  color: var(--secondary-color-font);
 }
 
   h3 { 
@@ -74,10 +75,6 @@ p {
     padding: 0px;
   }
   
- .logo {
-  max-width: 75px;
-  max-height: 75px;
- }
 
   .homepage-hero {
     padding-top: 170px;
@@ -127,6 +124,9 @@ p {
     border-radius: 4px;
     box-shadow: var(--shadow);
 }
+
+.btn-primary:hover {background: var(--secondary-color-font);
+border-color: var(--primary-color-font);}
 
 .btn-projects {
   background-color: var(--secondary-color-font);

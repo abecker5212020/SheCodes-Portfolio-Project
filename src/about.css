@@ -13,6 +13,8 @@
     background-image: var(--background-image);
   }
 
+
+
   p {
     font-size:22px;
     line-height: 1;
@@ -48,9 +50,15 @@
 
 .logo {max-height: 75px;}
 
+.about-me-title {
+  font-size: 48px;
+  color: var(--primary-color-font);
+  font-family: var(--primary-font);
+}
+
 .container-about-me {background-color: #a696c8;
   text-align: center;
-  width:900px;
+  width:600px;
   margin: auto;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -73,7 +81,7 @@
 .carousel-container {
   background-color: #a696c8;
   text-align: center;
-  width:900px;
+  width:700px;
   margin: auto;
   border-radius:5px;
   margin-top: 25px;
@@ -90,7 +98,7 @@ color: var(--primary-color-font);}
   background-color: var(--primary-color-font);
   color:var(--secondary-color-font);
   text-align: center;
-  width:900px;
+  width:500px;
   margin: auto;
   border-radius:5px;
   margin-top: 25px;
@@ -99,7 +107,3 @@ color: var(--primary-color-font);}
   font-family: var(--primary-font);
 }
 
-@media(max-width:500px){
-  .container-about-me {padding: 0;
-  text-align: center;}
-}

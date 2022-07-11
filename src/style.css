@@ -97,6 +97,8 @@ p {
     color: var( --primary-color-font);
   }
 
+  .highlighted-word { font-weight: 800px;}
+
 
 .polaroid {background: #fff;
     padding:1rem;

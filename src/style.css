@@ -229,11 +229,5 @@ color: var(--primary-color-font);}
     padding:100px;
   }
 
-  .contact-list {
-    list-style-type: none;
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    color: var(--secondary-color-font);
-  }
+  
   

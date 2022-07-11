@@ -41,7 +41,9 @@ nav a:hover,
 nav li.active a {
   color: var(--secondary-color-font);
 }
-
+h2 {
+  font-size: 36px;
+}
   h3 { 
     font-family:var(--secondary-font);
     color:var(--secondary-color-font);
@@ -51,8 +53,10 @@ nav li.active a {
     text-align: left;
 }
 
-h2 {
-  font-size: 36px;
+h4 {
+  font-size: 120px;
+  font-family: var(--primary-font);
+  color: var(--primary-color-font);
 }
 
 p {
@@ -142,14 +146,40 @@ border-color: var(--primary-color-font);}
 .project-description {
   padding:60px 60px;
 }
-.footer, .icon {
-    color:var(--secondary-color-font);
-    text-align: center;
+footer {
+  margin: 60px 0;
+
 }
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--secondary-color-font);
+
+}
+
+footer .email-link:hover {
+  color: var(--primary-color-font);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  transition: all 100ms ease-in-out;
+  color: var(--secondary-color-font);
+}
+
+footer .social-links a:hover {
+  color: var(--primary-color-font);
+}
+
+.made {text-align: center;
+font-size: 30px;
+font-family: var(--secondary-font);
+color: var(--primary-color-font);}
 
 @media(max-width:900px){
   .project-description {padding: 0;
-  text-align: center;}}
+  text-align: center;}
+}
 
 
   .skills, .certificates {

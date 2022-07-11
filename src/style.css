@@ -146,6 +146,13 @@ border-color: var(--primary-color-font);}
 .project-description {
   padding:60px 60px;
 }
+
+.project-github-link {
+  color: var(--primary-color-font);
+  font-size: 24px;
+}
+
+.project-github-link:hover {color: var(--secondary-color-font);}
 footer {
   margin: 60px 0;
 

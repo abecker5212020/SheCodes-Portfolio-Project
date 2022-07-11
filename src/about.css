@@ -18,7 +18,7 @@
     line-height: 1;
     color: var(--primary-color-font);
   }
-  .logo {max-height: 75px;}
+ 
   nav {
     padding: 20px 0;
   }
@@ -45,6 +45,9 @@
   nav li.active a {
     color: var(--secondary-color-font);
   }
+
+.logo {max-height: 75px;}
+
 .container-about-me {background-color: #a696c8;
   text-align: center;
   width:900px;
@@ -59,15 +62,16 @@
     box-shadow: var(--shadow);
     width: 70%;
     transform: rotate(-4deg);
-    margin-left:500px;
+    margin-left:500px
 }
-
+.caption {text-align: center;}
 .polaroid >img {
     max-width: 100%;
     height:auto;
 }
 
-.carousel-container {background-color: #a696c8;
+.carousel-container {
+  background-color: #a696c8;
   text-align: center;
   width:900px;
   margin: auto;
@@ -82,3 +86,15 @@ color: var(--primary-color-font);}
 
 .carousel-location, .carousel-place{color: white;}
 
+.quote {
+  background-color: var(--primary-color-font);
+  color:var(--secondary-color-font);
+  text-align: center;
+  width:900px;
+  margin: auto;
+  border-radius:5px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  border: 3px solid var(--primary-color-font);
+  font-family: var(--primary-font);
+}
